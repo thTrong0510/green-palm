@@ -362,23 +362,48 @@ footer {
     transform: translateY(-3px);
 }
 
-/* Mô tả */
+/* Mô tả sản phẩm */
 .product-description {
-    max-width: 800px;
-    margin: 0 auto 3rem auto;
+    max-width: 850px;
+    margin: 3rem auto;
     text-align: left;
-    line-height: 1.8;
+    line-height: 1.9;
+    padding: 2rem 2.5rem;
+    background-color: #f9faf7;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #7ea172;
 }
 
 .product-description h2 {
     color: #2d4a2d;
-    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.product-description p {
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+    color: #333;
 }
 
 .product-description ul {
-    margin-top: 1rem;
-    list-style: disc;
-    margin-left: 1.5rem;
+    margin: 1rem 0 1.5rem 2rem;
+    list-style-type: disc;
+}
+
+.product-description li {
+    margin-bottom: 0.6rem;
+    font-size: 1.05rem;
+    color: #444;
+}
+
+/* Tạo điểm nhấn cho phần mở đầu mô tả */
+.product-description p:first-of-type {
+    font-weight: 600;
+    color: #2d4a2d;
 }
 
 /* Đánh giá khách hàng */

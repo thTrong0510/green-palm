@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPalm Bioware | Cup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER (giữ nguyên từ index.html) -->
+    <header>
+        <div class="logo">GreenPalm Bioware</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active">Categories ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="plate-list.html">Plates</a></li>
+                        <li><a href="container-list.html" class="active">Food Containers</a></li>
+                        <li><a href="cup.html">Cups</a></li>
+                        <li><a href="cutlerty.html">cutlerty</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://yourcataloguelink.com" target="_blank">Catalogue</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-page">
+        <!-- Tên sản phẩm -->
+        <h1 class="product-title">Ly mo cau 480ml</h1>
+
+        <!-- Ảnh chính -->
+        <div class="product-image-main">
+            <img id="mainImage" src="./images/cup/1.jpg" alt="Ly mo cau 480ml">
+        </div>
+
+        <!-- Ảnh con -->
+        <div class="product-thumbnails">
+            <img src="./images/cup/1.jpg" alt="thumb1" onclick="changeImage(this)">
+            <img src="./images/cup/2.jpg" alt="thumb2" onclick="changeImage(this)">
+            <img src="./images/cup/3.jpg" alt="thumb3" onclick="changeImage(this)">
+        </div>
+
+        <!-- Nút liên hệ -->
+        <div class="contact-button">
+            <a href="mailto:vthanhtrongng@gmail.com" class="btn-contact">Liên hệ</a>
+        </div>
+
+        <!-- Mô tả -->
+        <section class="product-description">
+            <h2>Mô tả sản phẩm</h2>
+            <p>Kích thước tiêu chuẩn:</p>
+            <ul>
+                <li>Dung tích: 480ml ~ 16oz</li>
+                <li>Chiều cao: 149mm</li>
+                <li>Đường kính đáy ly: 61mm</li>
+                <li>Đường kính miệng ly: 90mm</li>
+            </ul>
+            <p>Trọng lượng: 18-22 g</p>
+            <p>
+                Sản phẩm phù hợp cho bia, nước ngọt, các sự kiện ngoài trời và lễ hội (festival) nhờ thiết kế tiện dụng
+                và dung tích vừa phải. Hướng đến nhóm khách hàng ưa thích “one cup serving”, ly mang lại trải nghiệm
+                uống thoải mái, hạn chế việc phải rót lại nhiều lần. Đây cũng là kích thước bán chạy tại Đức trong các
+                sự kiện outdoor, được xem là “smart choice” cho cả nhà tổ chức và người dùng.
+            </p>
+        </section>
+
+        <!-- Đánh giá khách hàng -->
+        <section class="product-reviews">
+            <h2>Đánh giá của khách hàng</h2>
+
+            <div class="review">
+                <h4>Nguyễn Minh Anh</h4>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <pLy này dùng cho sự kiện ngoài trời rất tiện, dung tích vừa phải, cầm chắc tay và uống thoải mái mà
+                    không cần rót thêm. Rất hợp cho bia hoặc nước ngọt trong các festival. Mình thấy kiểu ly này phổ
+                    biến ở châu Âu, đúng kiểu chân ái cho các buổi tiệc hoặc sự kiện lớn.</p>
+            </div>
+
+            <div class="review">
+                <h4>Trần Hữu Nghĩa</h4>
+                <div class="stars">⭐⭐⭐⭐</div>
+                <p>Chất lượng tốt, dùng để đựng cơm văn phòng rất tiện. Mong có thêm loại lớn hơn.</p>
+            </div>
+
+            <div class="review">
+                <h4>Phạm Quỳnh</h4>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>Thiết kế đẹp và rất tự nhiên. Mình mua thêm để tặng bạn bè.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <!-- Cột 1: Thông tin công ty -->
+            <div class="footer-column">
+                <h3>GreenPalm Bioware</h3>
+                <p><strong>Tên viết tắt:</strong> GreenPalm</p>
+                <p><strong>Địa chỉ:</strong> Tầng 5, Tòa nhà A, Số 123 Nguyễn Lương Bằng, P. Tân Phong, Q7, TP. HCM</p>
+                <p><strong>Website:</strong> <a href="https://www.greenpalmbioware.com"
+                        target="_blank">www.greenpalmbioware.com</a></p>
+            </div>
+
+            <!-- Cột 2: Liên hệ -->
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p><strong>Phone:</strong> +84 90 123 4567</p>
+                <p><strong>Email:</strong> vthanhtrongng@gmail.com</p>
+            </div>
+
+            <!-- Cột 3: Chính sách -->
+            <div class="footer-column">
+                <h3>Policy</h3>
+                <ul>
+                    <li><a href="#">Delivery Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Cột 4: Ngân hàng -->
+            <div class="footer-column">
+                <h3>Banking</h3>
+                <p><strong>Ngân hàng:</strong> Ngân hàng TMCP Ngoại Thương Việt Nam (VCB)</p>
+                <p><strong>Số tài khoản:</strong> 1012754793</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 GreenPalm Bioware. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
