@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPalm Bioware | Food Containers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER (giữ nguyên từ index.html) -->
+    <header>
+        <div class="logo">GreenPalm Bioware</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active">Categories ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="plate.html">Plates</a></li>
+                        <li><a href="container.html" class="active">Food Containers</a></li>
+                        <li><a href="cup.html">Cups</a></li>
+                        <li><a href="cutlery.html">Cutlery</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://yourcataloguelink.com" target="_blank">Catalogue</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-page">
+        <!-- Tên sản phẩm -->
+        <h1 class="product-title">Hộp mo cau nắp rời</h1>
+
+        <!-- Ảnh chính -->
+        <div class="product-image-main">
+            <img id="mainImage" src="./images/container/3/1.jpg" alt="Food Container chính">
+        </div>
+
+        <!-- Ảnh con -->
+        <div class="product-thumbnails">
+            <img src="./images/container/3/1.jpg" alt="thumb1" onclick="changeImage(this)">
+            <img src="./images/container/3/2.jpg" alt="thumb2" onclick="changeImage(this)">
+            <img src="./images/container/3/3.jpg" alt="thumb3" onclick="changeImage(this)">
+        </div>
+
+        <!-- Nút liên hệ -->
+        <div class="contact-button">
+            <a href="mailto:vthanhtrongng@gmail.com" class="btn-contact">Liên hệ</a>
+        </div>
+
+        <!-- Mô tả -->
+        <section class="product-description">
+            <h2>Mô tả sản phẩm</h2>
+            <p>
+                Dòng sản phẩm hộp đựng thực phẩm sinh học của GreenPalm Bioware được làm từ mo cau tự nhiên,
+                hoàn toàn không chứa nhựa hay chất độc hại. Thiết kế chắc chắn, chịu nhiệt tốt, phù hợp cho
+                việc bảo quản thức ăn, mang đi picnic hoặc sử dụng trong nhà hàng, quán ăn xanh.
+            </p>
+            <ul>
+                <li>Chất liệu: 100% mo cau tự nhiên</li>
+                <li>Phân hủy sinh học hoàn toàn</li>
+                <li>Chịu nhiệt đến 120°C</li>
+                <li>Kích thước: nhiều loại (500ml, 700ml, 1000ml...)</li>
+            </ul>
+        </section>
+
+        <!-- Đánh giá khách hàng -->
+        <section class="product-reviews">
+            <h2>Đánh giá của khách hàng</h2>
+
+            <div class="review">
+                <h4>Nguyễn Minh Anh</h4>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>Thiết kế rất đẹp và sang, cầm lên có cảm giác cao cấp như các sản phẩm châu Âu. Mình đặc biệt thích
+                    phần nắp vì có thể tận dụng làm đĩa phụ, rất tiện khi dùng salad hoặc món có sốt. Hộp chắc chắn, tự
+                    nhiên và mang lại trải nghiệm ‘premium’ đúng như mong đợi.</p>
+            </div>
+
+            <div class="review">
+                <h4>Trần Hữu Nghĩa</h4>
+                <div class="stars">⭐⭐⭐⭐</div>
+                <p>Chất lượng tốt, dùng để đựng cơm văn phòng rất tiện. Mong có thêm loại lớn hơn.</p>
+            </div>
+
+            <div class="review">
+                <h4>Phạm Quỳnh</h4>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>Thiết kế đẹp và rất tự nhiên. Mình mua thêm để tặng bạn bè.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <!-- Cột 1: Thông tin công ty -->
+            <div class="footer-column">
+                <h3>GreenPalm Bioware</h3>
+                <p><strong>Tên viết tắt:</strong> GreenPalm</p>
+                <p><strong>Địa chỉ:</strong> Tầng 5, Tòa nhà A, Số 123 Nguyễn Lương Bằng, P. Tân Phong, Q7, TP. HCM</p>
+                <p><strong>Website:</strong> <a href="https://www.greenpalmbioware.com"
+                        target="_blank">www.greenpalmbioware.com</a></p>
+            </div>
+
+            <!-- Cột 2: Liên hệ -->
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p><strong>Phone:</strong> +84 90 123 4567</p>
+                <p><strong>Email:</strong> vthanhtrongng@gmail.com</p>
+            </div>
+
+            <!-- Cột 3: Chính sách -->
+            <div class="footer-column">
+                <h3>Policy</h3>
+                <ul>
+                    <li><a href="#">Delivery Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Cột 4: Ngân hàng -->
+            <div class="footer-column">
+                <h3>Banking</h3>
+                <p><strong>Ngân hàng:</strong> Ngân hàng TMCP Ngoại Thương Việt Nam (VCB)</p>
+                <p><strong>Số tài khoản:</strong> 1012754793</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 GreenPalm Bioware. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

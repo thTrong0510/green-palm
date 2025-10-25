@@ -229,8 +229,71 @@ footer {
     opacity: 0.9;
 }
 
+/* ==== CONTAINER LIST PAGE ==== */
+.container-list {
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+}
 
-/* ==== PRODUCT PAGE ==== */
+.container-list h1 {
+    color: #2d4a2d;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #f8f8f4;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product-item h3 {
+    color: #2d4a2d;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4b7a55;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #6fa16f;
+}
+
+
+/* ==== PRODUCT DETAIL PAGE ==== */
 .product-page {
     text-align: center;
     padding: 3rem 2rem;
@@ -244,8 +307,8 @@ footer {
 }
 
 .product-image-main img {
-    width: 90%;
-    max-width: 900px;
+    width: 70%;
+    max-width: 700px;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     margin-bottom: 1rem;
@@ -259,15 +322,15 @@ footer {
 .product-thumbnails {
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    margin-bottom: 3rem;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .product-thumbnails img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     border: 2px solid transparent;
     transition: border-color 0.3s ease;
@@ -275,6 +338,28 @@ footer {
 
 .product-thumbnails img:hover {
     border-color: #7ea172;
+    transform: scale(1.05);
+}
+
+.contact-button {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.btn-contact {
+    display: inline-block;
+    background-color: #4b7a55;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-contact:hover {
+    background-color: #6fa16f;
+    transform: translateY(-3px);
 }
 
 /* Mô tả */
