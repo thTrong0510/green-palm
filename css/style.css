@@ -254,8 +254,11 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 300px;
-    text-align: center;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -274,9 +277,31 @@ footer {
 
 .product-item h3 {
     color: #2d4a2d;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
+    min-height: 3.2rem;
+    /* 👈 đảm bảo chiều cao tiêu đề ổn định */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: 0 5px;
 }
+
+.product-item .btn {
+    display: inline-block;
+    background-color: #2d4a2d;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease;
+}
+
+.product-item .btn:hover {
+    background-color: #3b613b;
+}
+
 
 .btn {
     display: inline-block;
